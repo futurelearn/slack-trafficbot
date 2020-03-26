@@ -1,0 +1,57 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (6.0.2.2)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+      zeitwerk (~> 2.2)
+    aws-eventstream (1.0.3)
+    aws-partitions (1.288.0)
+    aws-sdk-cloudwatch (1.34.0)
+      aws-sdk-core (~> 3, >= 3.71.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-core (3.92.0)
+      aws-eventstream (~> 1.0, >= 1.0.2)
+      aws-partitions (~> 1, >= 1.239.0)
+      aws-sigv4 (~> 1.1)
+      jmespath (~> 1.0)
+    aws-sigv4 (1.1.1)
+      aws-eventstream (~> 1.0, >= 1.0.2)
+    concurrent-ruby (1.1.6)
+    faraday (1.0.0)
+      multipart-post (>= 1.2, < 3)
+    faraday_middleware (1.0.0.rc1)
+      faraday (~> 1.0)
+    gli (2.19.0)
+    hashie (4.1.0)
+    i18n (1.8.2)
+      concurrent-ruby (~> 1.0)
+    jmespath (1.4.0)
+    minitest (5.14.0)
+    multipart-post (2.1.1)
+    slack-ruby-client (0.14.5)
+      activesupport
+      faraday (>= 0.9)
+      faraday_middleware
+      gli
+      hashie
+      websocket-driver
+    thread_safe (0.3.6)
+    tzinfo (1.2.6)
+      thread_safe (~> 0.1)
+    websocket-driver (0.7.1)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.4)
+    zeitwerk (2.3.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  aws-sdk-cloudwatch
+  slack-ruby-client
+
+BUNDLED WITH
+   2.1.4
